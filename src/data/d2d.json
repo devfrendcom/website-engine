@@ -72,7 +72,7 @@
             "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "header",
-            "variant": "1",
+            "variant": "5",
             "position": 1,
             "is_active": true,
             "content": {
@@ -92,7 +92,7 @@
             "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "hero",
-            "variant": "2",
+            "variant": "3",
             "position": 2,
             "is_active": true,
             "content": {
@@ -112,7 +112,7 @@
             "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "services",
-            "variant": "1",
+            "variant": "2",
             "position": 3,
             "is_active": true,
             "content": {
@@ -175,7 +175,7 @@
             "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "about",
-            "variant": "1",
+            "variant": "2",
             "position": 3,
             "is_active": true,
             "content": {
@@ -195,7 +195,7 @@
             "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "testimonial",
-            "variant": "1",
+            "variant": "2",
             "position": 4,
             "is_active": true,
             "content": {
@@ -258,7 +258,7 @@
             "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "footer",
-            "variant": "1",
+            "variant": "3",
             "position": 6,
             "is_active": true,
             "content": {
