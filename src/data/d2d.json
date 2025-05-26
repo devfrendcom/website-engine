@@ -72,13 +72,13 @@
             "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "header",
-            "variant": "1",
+            "variant": "5",
             "position": 1,
             "is_active": true,
             "content": {
               "id": "9b742a78-b86f-4a6a-9f0c-f39747ec5d3f",
               "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
-              "title": "New Section",
+              "title": "",
               "subtitle": "Subtitle",
               "description": "Description for the new section",
               "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
@@ -86,20 +86,47 @@
               "cta_text": "Get Started",
               "cta_link": "/contact"
             },
-            "items": []
+            "items": [
+              {
+                "id": "1",
+                "title": "Home",
+                "cta_link": "/"
+              },
+              {
+                "id": "2",
+                "title": "About",
+                "cta_link": "#about"
+              },
+              {
+                "id": "3",
+                "title": "Services",
+                "cta_link": "#services"
+              },
+              {
+                "id": "4",
+                "title": "Contact",
+                "cta_link": "#contact"
+              },
+              {
+                "id": "5",
+                "title": "Book Now",
+                "cta_link": "/booking"
+              }
+            ]
+
           },
           {
             "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "hero",
-            "variant": "2",
+            "variant": "3",
             "position": 2,
             "is_active": true,
             "content": {
               "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
               "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
-              "title": "Build Beautiful barber shop",
-              "subtitle": "Modern Web Development",
+              "title": "Bladesmith Barber College",
+              "subtitle": "Modern Barber Shop",
               "description": "Our modular website builder allows you to create stunning websites with ease. No coding required.",
               "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
               "background_url": null,
@@ -109,11 +136,59 @@
             "items": []
           },
           {
+            "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "about",
+            "variant": "2",
+            "position": 3,
+            "is_active": true,
+            "content": {
+              "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
+              "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+              "title": "About Bladesmith Barber College",
+              "subtitle": "Subtitle",
+              "description": "Welcome to Bladesmith Barber College, where tradition meets innovation in the art of barbering. With over 5 years of excellence in Denton, we've been shaping the future of barbering through education and professional service.",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": [
+              {
+                "icon": "scissors",
+                "title": "Expert Training",
+                "serviceType": "Education",
+                "description":
+                  "Our certified instructors bring decades of combined experience in both classic and modern barbering techniques. We're committed to training the next generation of barbers with hands-on experience and personalized mentorship.",
+                "price": null,
+                "duration": null
+              },
+              {
+                "icon": "users",
+                "title": "Student Services",
+                "serviceType": "Grooming",
+                "description":
+                  "Experience professional grooming services at student prices. Our advanced students provide quality cuts under expert supervision, offering you premium service while supporting their education.",
+                "price": null,
+                "duration": null
+              },
+              {
+                "icon": "award",
+                "title": "Modern Facility",
+                "serviceType": "Environment",
+                "description":
+                  "Located in the heart of Denton, our state-of-the-art facility features the latest equipment and comfortable amenities, creating the perfect environment for both learning and service.",
+                "price": null,
+                "duration": null
+              }
+            ]
+          },
+          {
             "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "services",
-            "variant": "1",
-            "position": 3,
+            "variant": "2",
+            "position": 4,
             "is_active": true,
             "content": {
               "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
@@ -126,77 +201,59 @@
               "cta_text": "View All Services",
               "cta_link": "/services"
             },
+            
             "items": [
               {
-                "id": "697983ce-5f8b-46db-89be-22e6471f3f5a",
+                "id": "1",
                 "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "Web Development",
-                "subtitle": "Custom Solutions",
-                "description": "We build responsive, fast-loading websites that look great on any device.",
-                "icon": "code",
+                "title": "Classic Haircut",
+                "subtitle": "Signature Style",
+                "description": "A traditional cut with modern precision. Includes consultation, shampoo, cut, and style. Perfect for maintaining your signature look or trying something new.",
+                "icon": "scissors",
                 "image_url": "https://via.placeholder.com/400x300",
                 "rating": null,
-                "price": null,
-                "duration": null,
+                "price": "$25",
+                "duration": "45-60 min",
                 "tag": null,
                 "position": 0
               },
               {
-                "id": "8838565f-e964-40be-b8b8-5c0e38180d80",
+                "id": "2",
                 "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "E-commerce",
-                "subtitle": "Online Stores",
-                "description": "Create your online store with secure payment processing and inventory management.",
+                "title": "Beard Trim & Style",
+                "subtitle": "Facial Grooming",
+                "description": "Professional beard grooming and shaping. Includes trimming, edging, and styling. Get that perfect shape and definition for your facial hair.",
                 "icon": "search",
                 "image_url": "https://via.placeholder.com/400x300",
                 "rating": null,
-                "price": null,
-                "duration": null,
+                "price": "$15",
+                "duration": "20-30 min",
                 "tag": null,
                 "position": 1
               },
               {
-                "id": "19d93208-162d-46b8-a57c-69294d21ab14",
+                "id": "3",
                 "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "SEO Optimization",
-                "subtitle": "Improve Rankings",
-                "description": "Enhance your online presence with our search engine optimization services.",
-                "icon": "share",
+                "title": "Hot Towel Shave",
+                "subtitle": "Premium Shave",
+                "description": "Traditional straight razor shave with hot towel treatment. Includes pre-shave oil, hot towel application, and post-shave care for the ultimate grooming experience.",
+                "icon": "calendar",
                 "image_url": "https://via.placeholder.com/400x300",
                 "rating": null,
-                "price": null,
-                "duration": null,
+                "price": "$30",
+                "duration": "45 min",
                 "tag": null,
                 "position": 2
               }
             ]
-          },
-          {
-            "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "about",
-            "variant": "1",
-            "position": 3,
-            "is_active": true,
-            "content": {
-              "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
-              "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
-            },
-            "items": []
+
           },
           {
             "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "testimonial",
-            "variant": "1",
-            "position": 4,
+            "variant": "2",
+            "position": 5,
             "is_active": true,
             "content": {
               "id": "48813f16-3aea-471a-8df6-b3f999c5617d",
@@ -258,7 +315,7 @@
             "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
             "type": "footer",
-            "variant": "1",
+            "variant": "3",
             "position": 6,
             "is_active": true,
             "content": {
